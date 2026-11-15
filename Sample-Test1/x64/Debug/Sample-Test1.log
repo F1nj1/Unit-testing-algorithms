@@ -1,0 +1,5 @@
+﻿  test.cpp
+C:\Users\Master\Documents\Aue tatari\Program\Project3\Project3\algoritmi.cpp(98,20): warning C4101: 'j': unreferenced local variable
+  (compiling source file '/test.cpp')
+  
+  Sample-Test1.vcxproj -> C:\Users\Master\Documents\Aue tatari\Program\Project3\x64\Debug\Sample-Test1.exe
