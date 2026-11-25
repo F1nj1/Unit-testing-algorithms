@@ -1,3 +1,5 @@
 ﻿  algoritmi.cpp
-C:\Users\Master\Documents\Aue tatari\Program\Project3\Project3\algoritmi.cpp(98,20): warning C4101: 'j': unreferenced local variable
-  Project3.vcxproj -> C:\Users\Master\Documents\Aue tatari\Program\Project3\x64\Debug\Project3.exe
+C:\Users\Master\Documents\Aue tatari\Program\Unit-testing-algorithms\Project3\algoritmi.cpp(98,20): warning C4101: 'j': unreferenced local variable
+  main.cpp
+  Generating Code...
+  Project3.vcxproj -> C:\Users\Master\Documents\Aue tatari\Program\Unit-testing-algorithms\x64\Debug\Project3.exe

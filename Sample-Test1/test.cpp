@@ -1,10 +1,12 @@
 #include "pch.h"
-#include "C:\Users\Master\Documents\Aue tatari\Program\Project3\Project3\algoritmi.cpp"
+#include "C:\Users\Master\Documents\Aue tatari\Program\Unit-testing-algorithms\Project3\algoritmi.cpp"
+
+int* mas, * sort_mas;
 
 TEST(SelectSort, TestName) {
-	int* mas = new int[5] { 2,15,16,28,1 };
+	mas = new int[5] { 2,15,16,28,1 };
 	selectsort(mas, 5);
-	int* sort_mas = new int[5] { 1,2,15,16,28};
+	sort_mas = new int[5] { 1,2,15,16,28};
 	
 	for (int i = 0; i < 5; i++)
 	{
@@ -60,9 +62,9 @@ TEST(SelectSort, TestName) {
 }
 
 TEST(ShakerSort, TestName) {
-	int* mas = new int[5] { 123,600,234,1231,11 };
+	mas = new int[5] { 123,600,234,1231,11 };
 	shakersort(mas, 5);
-	int* sort_mas = new int[5] { 11,123,234,600,1231};
+	sort_mas = new int[5] { 11,123,234,600,1231};
 
 	for (int i = 0; i < 5; i++)
 	{
@@ -118,9 +120,9 @@ TEST(ShakerSort, TestName) {
 }
 
 TEST(ShellSort, TestName) {
-	int* mas = new int[5] { 1234, 1002, 5000,4444, 9343 };
+	mas = new int[5] { 1234, 1002, 5000,4444, 9343 };
 	shellsort(mas, 5);
-	int* sort_mas = new int[5] { 1002, 1234,4444,5000,9343};
+	sort_mas = new int[5] { 1002, 1234,4444,5000,9343};
 
 	for (int i = 0; i < 5; i++)
 	{
